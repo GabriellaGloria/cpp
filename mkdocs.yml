@@ -1,5 +1,5 @@
 site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_url: https://mydomain.org/
 theme:
   palette:
 
@@ -54,6 +54,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - About:
-    - About me: about/about.md
-    - Childhood: about/a.md
+  - About: about/about.md
+  - Implementations:
+      - Vector: implementations/vector.md
+  - Template:
+      - Class Template: template/class_template.md
+      - Function Template: template/function_template.md
+      - Nontype Template: template/nontype_template.md
+      - Variadic Template: template/variadic_template.md
+      - CRTP: template/crtp.md
