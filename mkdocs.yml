@@ -54,12 +54,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - About: about/about.md
-  - Implementations:
-      - Vector: implementations/vector.md
-  - Template:
-      - Class Template: template/class_template.md
-      - Function Template: template/function_template.md
-      - Nontype Template: template/nontype_template.md
-      - Variadic Template: template/variadic_template.md
-      - CRTP: template/crtp.md
+  # - About: about/about.md
+
+  - Notes:
+    - Template:
+        - Class Template: template/class_template.md
+        - Function Template: template/function_template.md
+        - Nontype Template: template/nontype_template.md
+        - Variadic Template: template/variadic_template.md
+        - CRTP: template/crtp.md
+    - Implementations:
+        - Vector: implementations/vector.md
